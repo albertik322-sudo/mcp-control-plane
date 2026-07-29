@@ -1,0 +1,54 @@
+# Copy the entries you need into ~/.codex/config.toml and replace `python`
+# with the absolute path to this project's virtual-environment interpreter.
+
+[mcp_servers.ubuntu_server]
+command = "python"
+args = ["server.py"]
+
+[mcp_servers.ubuntu_docker]
+command = "python"
+args = ["docker_mcp.py"]
+
+[mcp_servers.homelab]
+command = "python"
+args = ["homelab_mcp.py"]
+
+[mcp_servers.mikrotik]
+command = "python"
+args = ["mikrotik_mcp.py"]
+
+[mcp_servers.homeassistant]
+command = "python"
+args = ["homeassistant_mcp.py"]
+
+[mcp_servers.local_tunnels]
+command = "python"
+args = ["tunnel_mcp.py"]
+
+[mcp_servers.windows_system]
+command = "python"
+args = ["windows_system_mcp.py"]
+
+[mcp_servers.windows_gui]
+command = "python"
+args = ["windows_gui_mcp.py"]
+
+[mcp_servers.codex_memory]
+command = "python"
+args = ["memory_mcp.py"]
+
+[mcp_servers.codex_workers]
+command = "python"
+args = ["workers_mcp.py"]
+
+[mcp_servers.comfy_ai]
+command = "python"
+args = ["comfy_mcp.py"]
+
+[mcp_servers.steamdeck_emulation]
+command = "python"
+args = ["steamdeck_mcp.py"]
+
+[mcp_servers.mailru_mail]
+command = "python"
+args = ["mailru_mcp.py"]

@@ -1,0 +1,63 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+mailru_accounts.json
+
+# Python
+.venv/
+venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+**/.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Runtime state and generated output
+.runtime/
+.work/
+.artifacts/
+artifacts/
+gui_artifacts/
+ui_audit.jsonl
+*.log
+*.jsonl
+mikrotik_audit_snapshot.json
+
+# Temporary downloads, captures, firmware and vendored tools
+.tmp*
+.tools/
+.marauder-src/
+marauder_captures/
+marauder_firmware/
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.bin
+*.uf2
+*.pcap
+*.pcapng
+
+# Build output
+**/bin/
+**/obj/
+build/
+dist/
+*.egg-info/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "accounts": [
+    {
+      "account_id": "personal",
+      "provider": "mailru",
+      "address": "name@mail.ru",
+      "login": "name@mail.ru",
+      "credential_target": "CodexMailru/personal",
+      "enabled": true
+    },
+    {
+      "account_id": "yandex_personal",
+      "provider": "yandex",
+      "address": "name@yandex.ru",
+      "login": "name",
+      "credential_target": "CodexYandex/yandex_personal",
+      "enabled": true
+    }
+  ]
+}

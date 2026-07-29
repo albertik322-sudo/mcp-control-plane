@@ -1,0 +1,4 @@
+interface:
+  display_name: "MCP Control Plane Audit"
+  short_description: "Audit this MCP control plane safely"
+  default_prompt: "Use $mcp-control-plane-audit to audit this MCP project and report evidence without changing infrastructure."
