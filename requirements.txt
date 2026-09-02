@@ -12,5 +12,5 @@ pygetwindow==0.0.9
 pywinauto==0.6.9
 pyperclip==1.11.0
 httpx==0.28.1
-websocket-client==1.9.0
+websocket-client==1.9.1
 dnfile==0.18.0
