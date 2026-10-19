@@ -1,4 +1,4 @@
-mcp[cli]==2.0.0
+mcp[cli]==2.2.0
 opentelemetry-sdk==1.44.0
 opentelemetry-exporter-otlp-proto-http==1.44.0
 paramiko==5.0.0
